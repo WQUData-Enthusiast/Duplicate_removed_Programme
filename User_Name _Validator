@@ -1,3 +1,8 @@
+# This programme validates the name characters
+# Allowed for the users to input
+
+
+# This is the function defination 
 def name(char):
     while True:
         if len(char) < 3:
@@ -7,6 +12,8 @@ def name(char):
         else:
             print("Name looks good!")
 
+# These line of codes makes the programme
+# More interactive for the users
 
 char = input("Enter your Name: ")
 count = 0
