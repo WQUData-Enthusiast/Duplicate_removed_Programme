@@ -1,18 +1,27 @@
+# This is an on going project for 
+# An Hypothetic loan collection company
+# Feel free to make contributions
+
+
+# Getting to Know the user
 print("Hello I am a Robot")
 print('o------ RO')
 print('  ||||  BOT')
-#name = input("\n Please may I know your name? ")
+name = input("\n Please may I know your name? ")
 
-#print("\n Welcome " + name + " !")
+print("\n Welcome " + name + " !")
 
-#color = input("\n What is your favorite color? ")
-#print(name + " likes " + color + ".")
+color = input("\n What is your favorite color? ")
+print(name + " likes " + color + ".")
 
-#weight = input("\nWhat is your weight in lbs? ")
-#weight_Kg = int(weight) * 0.45
-#print("You weigh " + str(weight_Kg) + " in Kg. ")
-#print("Now let's get down to business \n")
+weight = input("\nWhat is your weight in lbs? ")
+weight_Kg = int(weight) * 0.45
+print("You weigh " + str(weight_Kg) + " in Kg. ")
 
+# The main Business of loan collection
+# By the applicant user
+
+print("Now let's get down to business \n")
 print('>>Choose "y" for yes and "n" for No in the next question \n')
 q1 = input('Do you desire to get loan from Feomasix Investment? ')
 while True:
@@ -40,7 +49,8 @@ while True:
     else:
         print('Invalid input \n')
         break
-
+    
+    # Project in view
     q3 = int(input("How much did you want to loan? "))
     if q3 == int(_):
         print("Congratulations You've got a loan! ")
